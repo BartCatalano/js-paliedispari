@@ -8,7 +8,7 @@ Dichiariamo chi ha vinto.
 Esecuzione
 chiedi ad utente di scegliere tra pari e dispari
 chiedi un numero ad utente
-genera un numero random da 1 a 5 (con funzione generica)
+tramite funzione, genera un numero random da 1 a 5 (con funzione generica)
 -crea una funzione che genera un numer randon decimale tra min e max
 -salva il risultato e portalo fuori con return
 somma i numeri
