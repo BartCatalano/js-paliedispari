@@ -2,6 +2,9 @@
 // CHIEDO AD UTENTE DI INSERIRE NUMERI E SCEGLIERE TRA PARI E DISPARI
 let numeroUtente = prompt("Giochiamo! scegli un numero da 1 a 5");
 let podUtente = prompt ("Scegli pari o dispri, prenderò un numero casuale anche io e ti dirò se il risultato è pari o dispari! Buona Fortuna!");
+
+
+
 // CREO FUNZIONE CHE GENERA NUMERI RANDOM TRA DUE VALORI NUMERICI 
 function numeroPc(min, max){
     const numeroRandom = Math.floor(Math.random() * (max - min +1) + min);
@@ -24,9 +27,9 @@ let numeroSommato = (numerogenerato + numeroUtente);
 // CREO FUNZIONE CHE CONTROLLA SE IL NUMERO è PARI O DISPARI
 
 
-function pariodispari (numeroSommato){
+function pariodispari (numero){
     let podRisultato = "dispari";
-    if (numeroSommato % 2 === 0) {
+    if (numero % 2 === 0) {
         podRisultato = "pari";
         
     } 
