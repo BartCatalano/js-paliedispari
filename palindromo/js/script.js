@@ -1,13 +1,13 @@
 
 
 const userWord = prompt("Inserisci una parola e ti dirò se è palindroma");
-palindroma(userWord);
+invertword(userWord);
 /**
  * Description
  * @param {text} userWord
  * @returns {boolean}
  */
-function palindroma(Word) {
+function invertword(Word) {
     let risultato = "";
     for(let i = Word.length -1; i >= 0; i-- ) {
         const lettera = Word[i];
@@ -16,9 +16,9 @@ function palindroma(Word) {
         return risultato;
 
 }
-console.log(palindroma(userWord));
+console.log(invertword(userWord));
 let control = false;
-let risultatodiconfronto = (palindroma(userWord));
+const risultatodiconfronto = invertword(userWord);
 if (userWord === risultatodiconfronto) {
     control=true;
     
