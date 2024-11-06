@@ -1,16 +1,16 @@
 
 
 const userWord = prompt("Inserisci una parola e ti dirò se è palindroma");
-
+palindroma(userWord);
 /**
  * Description
  * @param {text} userWord
  * @returns {boolean}
  */
-function palindroma(userWord) {
+function palindroma(Word) {
     let risultato = "";
-    for(let i = userWord.length -1; i >= 0; i-- ) {
-        const lettera = userWord[i];
+    for(let i = Word.length -1; i >= 0; i-- ) {
+        const lettera = Word[i];
        risultato += lettera;
     }
         return risultato;
