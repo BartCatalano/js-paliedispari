@@ -5,9 +5,7 @@ let podUtente = prompt ("Scegli pari o dispri, prenderò un numero casuale anche
 // CREO FUNZIONE CHE GENERA NUMERI RANDOM TRA DUE VALORI NUMERICI 
 function numeroPc(min, max){
     const numeroRandom = Math.floor(Math.random() * (max - min +1) + min);
-    if (numeroRandom % 2 === 0) {
- 
-    return numeroRandom;
+     return numeroRandom;
 }
 
 
