@@ -1,25 +1,25 @@
 
 
-const userWorld = prompt("Inserisci una parola e ti dirò se è palindroma");
+const userWord = prompt("Inserisci una parola e ti dirò se è palindroma");
 
 /**
  * Description
- * @param {text} userWorld
+ * @param {text} userWord
  * @returns {boolean}
  */
-function palindroma(userWorld) {
+function palindroma(userWord) {
     let risultato = "";
-    for(let i = userWorld.length -1; i >= 0; i-- ) {
-        const lettera = userWorld[i];
+    for(let i = userWord.length -1; i >= 0; i-- ) {
+        const lettera = userWord[i];
        risultato += lettera;
     }
         return risultato;
 
 }
-console.log(palindroma(userWorld));
+console.log(palindroma(userWord));
 let control = false;
-let risultatodiconfronto = (palindroma(userWorld));
-if (userWorld === risultatodiconfronto) {
+let risultatodiconfronto = (palindroma(userWord));
+if (userWord === risultatodiconfronto) {
     control=true;
     
 }

@@ -23,6 +23,7 @@ let numeroSommato = (numerogenerato + numeroUtente);
 
 // CREO FUNZIONE CHE CONTROLLA SE IL NUMERO è PARI O DISPARI
 
+
 function pariodispari (numeroSommato){
     let podRisultato = "dispari";
     if (numeroSommato % 2 === 0) {
