@@ -1,6 +1,7 @@
 
 
-const userWord = prompt("Inserisci una parola e ti dirò se è palindroma");
+let userWord = prompt("Inserisci una parola e ti dirò se è palindroma");
+userWord = userWord.toLowerCase();
 invertword(userWord);
 /**
  * Description
